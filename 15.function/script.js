@@ -45,14 +45,14 @@ addition(7,3)
 
 /////////////// 5.Less Than 100?
 // Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false. (used: Arrow function)
-// (x, y)=>{
-//     if(x+y<100){
-//        return true;
-//     }else{
-//         return false;
-//     }
-// };
-// console.log(20,85)
+(x, y)=>{
+    if(x+y<100){
+       return true;
+    }else{
+        return false;
+    }
+};
+console.log(20,85)
 
 //////////////// 6.Volume of a Box
 // Create a function that takes an object argument sizes (contains width, length, height keys)
