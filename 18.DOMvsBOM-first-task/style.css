@@ -1,0 +1,26 @@
+button{
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.start{
+    background-color: green;
+    width: 80px;
+}
+.stop, .reset{
+    background-color: red;
+    width: 80px;
+}
+.incr, .decr{
+    background-color: rgb(35, 160, 118);
+    width: 140px;
+}
+.txt{
+    height: auto;
+    background-color: rgb(201, 142, 69);
+    color: black;
+}
+.input-number{
+    border: 1px solid red;
+}
