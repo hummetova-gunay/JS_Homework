@@ -18,20 +18,30 @@ addition.addEventListener('click',function(){
 //     let num1 = parseFloat(value1.value);
 //     let num2 = parseFloat(value2.value);
 //     result.innerHTML = num1 - num2;
+//     if(!num1 || !num2){
+//         alert('Please enter the numbers')
+//     }
 // })
+
 multiply.addEventListener('click',function(){
     let num1 = parseFloat(value1.value);
     let num2 = parseFloat(value2.value);
     result.innerHTML = num1*num2;
+    if(!num1 || !num2){
+        alert('Please enter the numbers')
+    }
 })
 division.addEventListener('click',function(){
     let num1 = parseFloat(value1.value);
     let num2 = parseFloat(value2.value);
     result.innerHTML = num1/num2;
+    if(!num1 || !num2){
+        alert('Please enter the numbers')
+    }
 })
 reset.addEventListener('click',function(){
     result.innerHTML = "";
     value1.value="";
     value2.value="";
-
+     
 })
