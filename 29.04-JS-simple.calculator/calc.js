@@ -14,14 +14,14 @@ addition.addEventListener('click',function(){
         alert('Please enter the numbers')
     }
 })
-// substract.addEventListener('click',function(){
-//     let num1 = parseFloat(value1.value);
-//     let num2 = parseFloat(value2.value);
-//     result.innerHTML = num1 - num2;
-//     if(!num1 || !num2){
-//         alert('Please enter the numbers')
-//     }
-// })
+substract.addEventListener('click',function(){
+    let num1 = parseFloat(value1.value);
+    let num2 = parseFloat(value2.value);
+    result.innerHTML = num1 - num2;
+    if(!num1 || !num2){
+        alert('Please enter the numbers')
+    }
+})
 
 multiply.addEventListener('click',function(){
     let num1 = parseFloat(value1.value);
