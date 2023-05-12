@@ -37,7 +37,6 @@ function generatePrimes(n) {
     return primes;
   }
   
-  // Example usage
   console.log(generatePrimes(10));
   
 

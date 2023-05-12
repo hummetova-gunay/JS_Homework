@@ -1,0 +1,1 @@
+axios('https://api.openweathermap.org/data/2.5/weather?q=Madrid&appid=d86a26ba265e1d06077330e4b00a1600').then((res)=>console.log(res.data))
