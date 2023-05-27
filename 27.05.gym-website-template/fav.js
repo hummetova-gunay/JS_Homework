@@ -10,6 +10,7 @@ function fill(arr){
           <h5 class="card-title">${element.exercise}</h5>
           <p class="card-text">${element.description}</p>
           <a href="home.html" class="btn btn-primary">Go back</a>
+          <button onclick="deleteFav(${element.id})" class="btn btn-danger">Remove from favourites</a>
         </div>
       </div>
         `
@@ -21,3 +22,6 @@ async function getFav(){
     fill(data)
 }
 getFav()
+function deleteFav(id){
+  axios.delete(`${FAV_URL}/${id}`)
+}

@@ -13,8 +13,9 @@ function fillData(arr){
         <div class="offer-text">
             <h4>${element.exercise}</h4>
             <p>${element.description}</p>
-            <button onclick="edit(${element.id})">edit</button>
-            <button onclick="addFav(${element.id})">Add fav</button>
+            <button class="btn" onclick="edit(${element.id})">edit</button>
+            <button class="btn" onclick="addFav(${element.id})">Add fav</button>
+            <button class="btn" onclick="deleteExc(${element.id})">Delete</button>
         </div>
     </div>
         `
@@ -96,6 +97,9 @@ async function addFav(id){
     })
   await axios.post(FAV_URL,obj)
   window.location.href="fav.html"
+}
+function deleteExc(id){
+    axios.delete(`${BASE_URL}/${id}`)
 }
 ////failed way///////
 // function searchName(arrr){

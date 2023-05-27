@@ -26,8 +26,8 @@
     },
     {
       "image": "o3.png",
-      "exercise": "ddeededed",
-      "description": "lk lkl",
+      "exercise": "abs workout",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
       "id": 5
     }
   ],
@@ -43,6 +43,12 @@
       "exercise": "Regular Exercise",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
       "id": 2
+    },
+    {
+      "image": "o3.png",
+      "exercise": "abs workout",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "id": 3
     }
   ]
 }
