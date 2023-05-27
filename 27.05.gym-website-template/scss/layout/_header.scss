@@ -1,0 +1,70 @@
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    .container{
+        .first-nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p:first-child{
+                width: 200px;
+                font-weight: 500;
+            }
+            .contact{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .phone{
+                    padding: 30px 40px;
+                    background-color: #F6214B;
+                    color: white;
+                }
+            }
+            .fa-bars{
+                display: none;
+            }
+            @media screen and (max-width:799px) {
+                p , .contact{
+                    display: none;
+                }
+                .fa-bars{
+                    display: block;
+                    padding: 20px;
+                }
+            }
+        }
+        .second-nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .main-menu{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 5px;
+                gap: 20px;
+                li{
+                    a{
+                        color: black;
+                    }
+                    a:hover{
+                        color: #F6214B;
+                    }
+                    .dropdown{
+                        a{
+                            border: none;
+                        }
+                    }
+                }
+            }
+            @media screen and (max-width:799px) {
+                .main-menu{
+                    display: none;
+                }
+            }
+        }
+    }
+}
