@@ -13,26 +13,32 @@
 
 h1::-moz-selection {
   background-color: #F6214B;
+  color: white;
 }
 
 h1::selection {
   background-color: #F6214B;
+  color: white;
 }
 
 p::-moz-selection {
   background-color: #F6214B;
+  color: white;
 }
 
 p::selection {
   background-color: #F6214B;
+  color: white;
 }
 
 h4::-moz-selection {
   background-color: #F6214B;
+  color: white;
 }
 
 h4::selection {
   background-color: #F6214B;
+  color: white;
 }
 
 header {
@@ -190,6 +196,86 @@ header .container .second-nav .main-menu li .dropdown a {
 }
 #offer-section .container .btn {
   background-color: #F6214B;
+  color: white;
+}
+
+#courses .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#courses .container .courses-heading {
+  text-align: center;
+}
+#courses .container .all-classes {
+  padding: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+#courses .container .all-classes .single-class .class-text {
+  display: flex;
+  justify-content: space-between;
+}
+#courses .container .all-classes .single-class .class-text p {
+  font-size: 20px;
+  font-weight: 600;
+}
+#courses .container .all-classes .single-class .class-text span {
+  color: #F6214B;
+  font-size: 24px;
+  font-weight: 400;
+}
+@media screen and (max-width: 991px) {
+  #courses .container .all-classes {
+    grid-template-columns: auto;
+  }
+}
+
+#transaction {
+  background-image: url(../../images/callto-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+}
+#transaction .section-text {
+  text-align: center;
+  color: white;
+}
+#transaction .section-text h1 {
+  font-size: 48px;
+}
+#transaction .section-text button {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #F6214B;
+  color: white;
+}
+#transaction .section-text button:hover {
+  background-color: transparent;
+  color: black;
+  border-color: white;
+}
+
+footer .content {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .content .icons {
+  display: flex;
+  gap: 20px;
+}
+footer .content .icons .an-icon {
+  padding: 5px 10px;
+  background-color: black;
   color: white;
 }
 

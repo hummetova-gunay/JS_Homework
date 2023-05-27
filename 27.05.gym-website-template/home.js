@@ -3,7 +3,7 @@ let searchInput=document.querySelector('#search')
 let sortBtn=document.querySelector('.fa-sort')
 let loadMore=document.querySelector('#loadMore')
 const BASE_URL="http://localhost:8000/offers"
-
+const FAV_URL="http://localhost:8000/fav"
 function fillData(arr){
     allOffers.innerHTML=""
     arr.forEach(element => {
@@ -14,6 +14,7 @@ function fillData(arr){
             <h4>${element.exercise}</h4>
             <p>${element.description}</p>
             <button onclick="edit(${element.id})">edit</button>
+            <button onclick="addFav(${element.id})">Add fav</button>
         </div>
     </div>
         `
@@ -82,6 +83,19 @@ loadMore.addEventListener('click',function(){
 })
 function edit(id){
     window.location.href=`add-edit.html?id=${id}`
+}
+async function addFav(id){
+    arrOfData.filter((el)=>{
+        el.id==id
+        ?obj={
+           image:el.image,
+           exercise:el.exercise,
+           description:el.description
+        }
+        :undefined
+    })
+  await axios.post(FAV_URL,obj)
+  window.location.href="fav.html"
 }
 ////failed way///////
 // function searchName(arrr){

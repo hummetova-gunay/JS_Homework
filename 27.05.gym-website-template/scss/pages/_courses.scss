@@ -1,0 +1,35 @@
+#courses{
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .courses-heading{
+            text-align: center;
+        }
+        .all-classes{
+            padding: 100px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 20px;
+            .single-class{
+                .class-text{
+                    display: flex;
+                    justify-content: space-between;
+                    p{
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                    span{
+                        color: #F6214B;
+                        font-size: 24px;
+                        font-weight: 400;
+                    }
+                }
+            }
+            @media screen and (max-width:991px) {
+                grid-template-columns: auto; 
+            }
+        }
+    }
+}
