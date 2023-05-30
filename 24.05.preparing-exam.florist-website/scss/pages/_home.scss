@@ -1,0 +1,26 @@
+#home{
+    #carouselExampleCaptions{
+        .carousel-item{
+           .carousel-caption{
+            top: 20%;
+            width: 40%;
+            text-align: left;
+            h5{
+                color: black;
+                letter-spacing: 1px;
+            }
+            p{
+                font-size: 42px;
+                color: black;
+            }
+            button{
+                background-color:#F45D96;
+                border-radius: 30px;
+                padding: 10px 20px;
+                color: white;
+            }
+            
+           }
+        }
+    }
+}

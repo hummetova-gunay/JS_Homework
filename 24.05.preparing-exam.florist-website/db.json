@@ -1,0 +1,78 @@
+{
+  "flower": [
+    {
+      "id": 1,
+      "bgImage": "product-1.jpg",
+      "price": 27.5,
+      "name": "rose"
+    },
+    {
+      "id": 2,
+      "bgImage": "product-2.jpg",
+      "price": 23.5,
+      "name": "cactus"
+    },
+    {
+      "id": 3,
+      "bgImage": "product-3.jpg",
+      "price": 50.5,
+      "name": "daffodil"
+    },
+    {
+      "id": 4,
+      "bgImage": "product-4.jpg",
+      "price": 13.5,
+      "name": "tulip"
+    },
+    {
+      "id": 5,
+      "bgImage": "product-5.jpg",
+      "price": 17.5,
+      "name": "cactus"
+    },
+    {
+      "id": 7,
+      "bgImage": "product-7.jpg",
+      "price": 40.5,
+      "name": "cactus"
+    },
+    {
+      "id": 8,
+      "bgImage": "product-8.jpg",
+      "price": 37.5,
+      "name": "cactus"
+    },
+    {
+      "id": 9,
+      "bgImage": "product-9.jpg",
+      "price": 7.5,
+      "name": "cactus"
+    },
+    {
+      "id": 10,
+      "bgImage": "product-10.jpg",
+      "price": 67.5,
+      "name": "cactus"
+    }
+  ],
+  "fav-flower": [
+    {
+      "id": 10,
+      "bgImage": "product-10.jpg",
+      "price": 67.5,
+      "name": "cactus"
+    },
+    {
+      "name": "rose",
+      "price": 27.5,
+      "bgImage": "product-1.jpg",
+      "id": 11
+    },
+    {
+      "name": "cactus",
+      "price": 40.5,
+      "bgImage": "product-7.jpg",
+      "id": 12
+    }
+  ]
+}

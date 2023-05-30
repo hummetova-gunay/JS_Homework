@@ -1,0 +1,37 @@
+#home{
+    background-color: #ECFDFF;
+    #carouselExampleCaptions{
+       .carousel-item{
+          padding: 100px 0;
+          .carousel-text{
+            h1{
+                font-size: 50px;
+                font-weight: 900;
+            }
+            p{
+                margin: 30px 0;
+                color: grey;
+            }
+            button{
+                border: none;
+                background-image: linear-gradient(to right, red , yellow);
+                padding: 15px 30px;
+            }
+          }
+       } 
+    }
+    @media screen and (max-width:767px) {
+        #carouselExampleCaptions{
+            .carousel-item{
+                .col-6{
+                    img{
+                        display: none;
+                    }
+                }
+                .carousel-text {
+                    width: 100%;
+                }
+            }
+        } 
+    }
+}

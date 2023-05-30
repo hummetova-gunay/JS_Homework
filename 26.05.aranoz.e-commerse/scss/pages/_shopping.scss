@@ -1,0 +1,74 @@
+#shopping-section{
+    padding: 50px;
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        .shopping-heading{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 50px;
+            span{
+                font-weight: 700;
+                color: grey;
+            }
+        }
+        .input-group{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FF3368;
+            span, input, button{
+                background-color: #FF3368;
+                border: none;
+                color: white;
+            }
+        }
+          #section-products{
+                    padding: 50px;
+                    display: grid;
+                    grid-template-columns: auto auto auto auto;
+                    gap: 20px;
+                    .single-product{
+                        .product-text{
+                            padding: 30px;
+                            span{
+                                font-size: 24px;
+                            }
+                            .fav-basket{
+                                display: flex;
+                                justify-content: space-between;
+                                .fa-heart{
+                                    padding: 5px;
+                                    border-radius: 50%;
+                                    &:hover{
+                                        background-color: #FF3368;
+                                     }
+                                }
+                            }
+                        }
+                        &:hover{
+                            box-shadow: 0px 2px 10px grey;
+                            transition: 1s;
+                        }
+                    }
+                    @media screen and (max-width:991px){
+                        grid-template-columns: auto auto;
+                    }
+     }
+     #loadMore{
+        padding: 20px 30px;
+        border: 1px solid transparent;
+        border-radius: 15px;
+        background-color: #ECFDFF;
+        color: black;
+        font-size: 24px;
+        &:hover{
+            border-color: black;
+        }
+     }
+    }
+
+}

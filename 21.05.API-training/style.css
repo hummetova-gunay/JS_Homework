@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body header {
+  padding: 15px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+}
+body header .container .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .container .dark-mode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+body section {
+  background: #F2F2F2;
+}
+body section .container .search-sort {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+body section .container .search-sort .input-group {
+  width: 400px;
+}
+body section .container .search-sort .form-select {
+  width: 200px;
+  height: -moz-min-content;
+  height: min-content;
+}
+body.dark-body {
+  background-color: #202C36;
+}
+body.dark-body header {
+  background-color: #2B3844;
+}
+body.dark-body header h3 {
+  color: white;
+}
+body.dark-body header .dark-mode i, body.dark-body header .dark-mode p {
+  color: white;
+}
+body.dark-body section {
+  background-color: #202C36;
+}
+body.dark-body section .search-sort span, body.dark-body section .search-sort input, body.dark-body section .search-sort select {
+  background-color: #2B3844;
+  color: white;
+}
+body.dark-body section .card {
+  background-color: #2B3844;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

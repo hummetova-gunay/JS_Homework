@@ -1,0 +1,80 @@
+header{
+    background-color: #ECFDFF;
+  padding: 20px 5%;
+    .container{
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+             .fa-bars{
+                display: none;
+             }
+            .pages, .icons{
+                margin-bottom: 0px !important;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                column-gap: 20px;
+                li{
+                    a{
+                        color: black;
+                    }
+                    .dropdown {
+                        .dropdown-menu{
+                            background-color:#FF3368;
+                        }
+                    }
+                }
+                
+            }
+        }
+        .mobile-nav{
+            display: none;
+            .mobile-heading{
+                display: flex;
+                justify-content: space-between;
+            }
+            .mobile-pages{
+                margin-top: 100px;
+                background-color: black;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 50px;
+                padding: 50px;
+                li{
+                    a{
+                        color: white;
+                    }
+                    .dropdown {
+                        .dropdown-menu{
+                            background-color:#FF3368;
+                            li{
+                                a{
+                                    color: black;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:767px){
+        .container{
+            nav{
+                 display: none;
+            }
+            .mobile-nav{
+                display: block;
+                .mobile-pages{
+                    display: none;
+                    &.show{
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}

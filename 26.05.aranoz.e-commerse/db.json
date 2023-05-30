@@ -1,0 +1,78 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "product_4.png",
+      "prodName": "sit well",
+      "prodPrice": "200"
+    },
+    {
+      "id": 2,
+      "image": "product_1.png",
+      "prodName": "lorem belt watch",
+      "prodPrice": 150
+    },
+    {
+      "id": 3,
+      "image": "product_1.png",
+      "prodName": "ipsum belt watch",
+      "prodPrice": 150
+    },
+    {
+      "id": 4,
+      "image": "product_1.png",
+      "prodName": "dolor belt watch",
+      "prodPrice": 150
+    },
+    {
+      "id": 5,
+      "image": "product_1.png",
+      "prodName": "Quartz belt watch",
+      "prodPrice": 150
+    },
+    {
+      "image": "product_2.png",
+      "prodName": "lorem ipsum ",
+      "prodPrice": "50000",
+      "id": 6
+    },
+    {
+      "image": "product_3.png",
+      "prodName": "beige chair",
+      "prodPrice": "500",
+      "id": 7
+    },
+    {
+      "image": "product_4.png",
+      "prodName": "coziest  chair",
+      "prodPrice": "3000",
+      "id": 8
+    },
+    {
+      "image": "product_2.png",
+      "prodName": "sdsdddsdsdsdd",
+      "prodPrice": "12122122",
+      "id": 9
+    }
+  ],
+  "favs": [
+    {
+      "image": "product_4.png",
+      "prodName": "sit well",
+      "prodPrice": "200",
+      "id": 1
+    },
+    {
+      "image": "product_1.png",
+      "prodName": "ipsum belt watch",
+      "prodPrice": 150,
+      "id": 2
+    },
+    {
+      "image": "product_1.png",
+      "prodName": "ipsum belt watch",
+      "prodPrice": 150,
+      "id": 3
+    }
+  ]
+}

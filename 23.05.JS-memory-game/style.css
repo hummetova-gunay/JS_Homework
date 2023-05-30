@@ -1,0 +1,27 @@
+section{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-area{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    width: fit-content;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.close-box{
+    background-color: blue;
+}
+.open-box{
+    background-color: green;
+}

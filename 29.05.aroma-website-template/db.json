@@ -1,0 +1,32 @@
+{
+    "products":[
+        {
+            "id":1,
+            "prodCat":"Accessories",
+            "prodName":"Man Office Bag",
+            "prodPrice":"$150.00",
+            "prodImg":"product1.png"
+        },
+        {
+            "id":2,
+            "prodCat":"Accessories",
+            "prodName":"Man Office Bag",
+            "prodPrice":"$150.00",
+            "prodImg":"product2.png"
+        },
+        {
+            "id":3,
+            "prodCat":"Accessories",
+            "prodName":"Man Office Bag",
+            "prodPrice":"$150.00",
+            "prodImg":"product3.png"
+        },
+        {
+            "id":4,
+            "prodCat":"Accessories",
+            "prodName":"Man Office Bag",
+            "prodPrice":"$150.00",
+            "prodImg":"product4.png"
+        }
+    ]
+}

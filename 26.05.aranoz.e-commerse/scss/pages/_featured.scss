@@ -1,0 +1,22 @@
+#featured{
+    padding: 150px;
+    .features{
+        .row{
+            gap: 30px;
+            margin: 30px 0;
+            .single-feature{
+                padding: 50px;
+                background-color: #F8FBFF;
+                img{
+                    max-width: 100%;
+                }
+                @media screen  and (max-width:992px){
+                    flex-direction: column;
+                }
+                @media screen  and (max-width:992px){
+                   width: 100%;
+                }
+            }
+        }
+    }
+}

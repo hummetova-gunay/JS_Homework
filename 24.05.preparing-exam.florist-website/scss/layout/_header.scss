@@ -1,0 +1,48 @@
+header{
+    margin: 0 auto;
+    .container{
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            ul{
+                margin: 0 !important;
+               padding: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                gap: 20px;
+                li{
+                    a{
+                        color: black;
+                        &:hover{
+                            color: #F4DCE5;
+                            transition: 0.5s;
+                        }
+                    }
+                }
+            }
+            .icon{
+                padding: 5px 10px;
+                border: 1px solid black;
+                display: none;
+            }
+            
+        }
+        
+    }
+    @media screen and (max-width:991px) {
+        .container{
+            nav{
+                padding: 20px;
+                justify-content: space-between;
+                ul{
+                    display: none;
+                }
+                .icon{
+                    display: block;
+                }
+            }
+        }
+    }
+}

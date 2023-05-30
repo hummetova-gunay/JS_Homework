@@ -1,0 +1,19 @@
+#discount-section{
+    background-color: #ECFDFF;
+    padding: 100px 0;
+    .container{
+        display: flex;
+       gap: 50px;
+       .discount-time{
+          h1{
+            font-weight: 700;
+            margin: 50px 0;
+          }
+          .count-down-time{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+          }
+       }
+    }
+}

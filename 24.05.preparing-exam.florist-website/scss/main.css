@@ -1,0 +1,289 @@
+* {
+  text-decoration: none !important;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0 auto;
+}
+header .container nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .container nav ul {
+  margin: 0 !important;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+header .container nav ul li a {
+  color: black;
+}
+header .container nav ul li a:hover {
+  color: #F4DCE5;
+  transition: 0.5s;
+}
+header .container nav .icon {
+  padding: 5px 10px;
+  border: 1px solid black;
+  display: none;
+}
+@media screen and (max-width: 991px) {
+  header .container nav {
+    padding: 20px;
+    justify-content: space-between;
+  }
+  header .container nav ul {
+    display: none;
+  }
+  header .container nav .icon {
+    display: block;
+  }
+}
+
+#home #carouselExampleCaptions .carousel-item .carousel-caption {
+  top: 20%;
+  width: 40%;
+  text-align: left;
+}
+#home #carouselExampleCaptions .carousel-item .carousel-caption h5 {
+  color: black;
+  letter-spacing: 1px;
+}
+#home #carouselExampleCaptions .carousel-item .carousel-caption p {
+  font-size: 42px;
+  color: black;
+}
+#home #carouselExampleCaptions .carousel-item .carousel-caption button {
+  background-color: #F45D96;
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: white;
+}
+
+#flowers {
+  padding: 50px 0;
+}
+#flowers .features {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+#flowers .features .single-feature {
+  display: flex;
+  gap: 10px;
+}
+#flowers .features .single-feature .text h2 {
+  font-weight: 400;
+}
+#flowers .features .single-feature .text p {
+  color: #6E6DB1;
+}
+@media screen and (max-width: 992px) {
+  #flowers .features {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  #flowers .features {
+    grid-template-columns: auto;
+  }
+}
+#flowers .flowers {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+#flowers .flowers .single-flower {
+  height: 440px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 10px;
+}
+#flowers .flowers .single-flower .flower-name {
+  background-color: white;
+  padding: 0 15px;
+  text-align: center;
+}
+#flowers .flowers .single-flower:first-child {
+  background-image: url(../../images/categories-1.jpg);
+}
+#flowers .flowers .single-flower:nth-child(2) {
+  background-image: url(../../images/categories-2.jpg);
+}
+#flowers .flowers .single-flower:nth-child(3) {
+  background-image: url(../../images/categories-3.jpg);
+}
+#flowers .flowers .single-flower:nth-child(4) {
+  background-image: url(../../images/categories-4.jpg);
+}
+@media screen and (max-width: 992px) {
+  #flowers .flowers {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  #flowers .flowers {
+    grid-template-columns: auto;
+  }
+}
+
+#about .container {
+  margin: 0 auto;
+}
+#about .container .about-text {
+  gap: 20px;
+}
+#about .container .about-text span {
+  color: #F45D96;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+#about .container .about-text p {
+  color: rgb(104, 101, 101);
+}
+#about .container .about-image {
+  display: flex;
+  width: 100%;
+}
+#about .container .about-image img {
+  width: 100%;
+}
+#about .container .about-image .text {
+  padding: 50px;
+  text-align: start;
+  box-shadow: 5px 5px 15px grey;
+}
+#about .container .about-image .text span {
+  color: #F45D96;
+  font-weight: 600;
+}
+#about .container .about-image .text p {
+  color: rgb(104, 101, 101);
+}
+#about .container .about-image .text button {
+  background-color: #F45D96;
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: white;
+}
+@media screen and (max-width: 991px) {
+  #about .container .about-image {
+    flex-direction: column;
+    gap: 10px;
+  }
+  #about .container .about-image .text {
+    width: 100%;
+  }
+}
+
+#new-arrival {
+  padding: 100px 0;
+}
+#new-arrival .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#new-arrival .container .new-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#new-arrival .container .new-heading h5 {
+  color: #F45D96;
+}
+#new-arrival .container .new-heading ul {
+  display: flex;
+}
+#new-arrival .container .new-heading ul li .all {
+  border: 2px solid #F45D96;
+}
+#new-arrival .container .new-heading ul li .btn {
+  border: 2px solid transparent;
+}
+#new-arrival .container .new-heading ul li .btn:focus {
+  border-color: #F45D96;
+}
+#new-arrival .container .new-heading .sort-search {
+  display: flex;
+  gap: 100px;
+  margin: 30px;
+}
+#new-arrival .container .new-heading .sort-search #searchInput {
+  width: 300px;
+}
+#new-arrival .container .arrivals {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  width: 100%;
+}
+#new-arrival .container .arrivals .single-arrival .image {
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 10px;
+}
+#new-arrival .container .arrivals .single-arrival .image .icons {
+  display: none;
+  gap: 10px;
+}
+#new-arrival .container .arrivals .single-arrival .image .icons button {
+  border: none;
+  background-color: white;
+  border-radius: 50%;
+}
+#new-arrival .container .arrivals .single-arrival .image:hover .icons {
+  display: flex;
+  transition: 1s;
+}
+#new-arrival .container .arrivals .single-arrival .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#new-arrival .container .arrivals .single-arrival .text .btn {
+  display: none;
+  color: #F45D96;
+}
+#new-arrival .container .arrivals .single-arrival .text:hover .price {
+  display: none;
+  transition: 1s;
+}
+#new-arrival .container .arrivals .single-arrival .text:hover .btn {
+  display: block;
+  transition: 1s;
+}
+@media screen and (max-width: 991px) {
+  #new-arrival .container .arrivals {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  #new-arrival .container .arrivals {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 567px) {
+  #new-arrival .container .arrivals {
+    grid-template-columns: auto;
+  }
+}
+#new-arrival .container #viewmore {
+  border-bottom: 2px solid black;
+  font-size: 32px;
+}/*# sourceMappingURL=main.css.map */

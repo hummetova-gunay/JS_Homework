@@ -1,0 +1,105 @@
+#new-arrival{
+    padding: 100px 0;
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .new-heading{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            h5{
+                color: #F45D96;
+            }
+            ul{
+                display: flex;
+                li{
+                    .all{
+                        border: 2px solid #F45D96; 
+                    }
+                    .btn{
+                        border: 2px solid transparent;
+                        &:focus{
+                            border-color: #F45D96;
+                        }
+                    }
+                }
+            }
+            .sort-search{
+                display: flex;
+                gap: 100px;
+                margin: 30px;
+                #searchInput{
+                    width: 300px;
+                }
+            }
+        }
+        .arrivals{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 10px;
+            width: 100%;
+            .single-arrival{
+                .image{
+                    height: 350px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+                    padding: 10px;
+                    .icons{
+                        display: none;
+                        gap: 10px;
+                        button{
+                            border: none;
+                            background-color: white;
+                            border-radius: 50%;
+                        }
+                    }
+                    &:hover{
+                        .icons{
+                            display: flex;
+                            transition: 1s;
+                        }
+                    }
+                }
+                .text{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    .btn{
+                        display: none;
+                        color: #F45D96;
+                    }
+                    &:hover{
+                        .price{
+                            display: none;
+                            transition: 1s;
+                        }
+                        .btn{
+                            display: block;
+                            transition: 1s;
+                        }
+                    }
+                }
+            }
+            @media screen and (max-width:991px){
+            grid-template-columns: auto auto auto ;   
+            }
+            @media screen and (max-width:767px){
+            grid-template-columns: auto auto ;   
+            }
+            @media screen and (max-width:567px){
+            grid-template-columns: auto  ; 
+            }
+        }
+        #viewmore{
+            border-bottom: 2px solid black;
+            font-size: 32px;
+        }
+    }
+}

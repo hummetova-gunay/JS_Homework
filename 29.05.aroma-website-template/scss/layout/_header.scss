@@ -1,0 +1,43 @@
+header{
+    .container{
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            ul{
+                padding: 30px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                gap: 40px;
+                margin-bottom: 0;
+                li{
+                    a{
+                        color: black;
+                    }
+                }
+            }
+            .btn{
+                padding: 10px 30px;
+                border: 1px solid grey;
+                border-radius: 50px;
+                &:hover{
+                    border-color: blue;
+                }
+            }
+            .fa-bars{
+                display: none;
+            }
+            @media screen and (max-width:991px) {
+                padding: 40px;
+                ul, .btn, .icons{
+                    display: none;
+                }
+                .fa-bars{
+                    display: block;
+                }
+            }
+        }
+    }
+
+}
