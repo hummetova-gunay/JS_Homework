@@ -1,0 +1,51 @@
+#best-service{
+    background-image: url(../../images/section_bg02.jpg);
+    padding: 50px;
+    .container{
+        display: flex;
+        .text-part{
+            padding: 50px;
+            color: white;
+            .line-text{
+                display: flex;
+                justify-content:flex-start;
+                align-items: center;
+                gap: 20px;
+                text-align: left;
+                .line{
+                 height: 1px;
+                 width: 60px;
+                 background-color:white ;
+                }
+
+             }
+             h1{
+                font-weight: bold;
+                margin: 20px 0;
+             }
+             h5{
+                margin: 40px 0;
+             }
+             button{
+                margin: 20px 0;
+                border: none;
+                padding: 15px 30px;
+                background-color: #FF2147;
+                color: white;
+                &:hover{
+                    background-color: white;
+                    color: black;
+                    transition: 1S;
+                }
+             }
+        }
+        @media screen and (max-width:991px){
+            flex-direction: column;
+
+        } 
+    }
+
+    @media screen and (max-width:991px) {
+        background-image: url(../../images/section_bg04.jpg);
+    }
+}

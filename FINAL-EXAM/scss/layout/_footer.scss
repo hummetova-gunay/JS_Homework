@@ -1,0 +1,24 @@
+footer{
+    background-color: #060B15;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .text{
+            color: white;
+        }
+        ul{
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            margin-bottom: 0; 
+            gap: 20px;
+            li{
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+}

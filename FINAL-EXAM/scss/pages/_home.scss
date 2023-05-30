@@ -1,0 +1,49 @@
+#home{
+    .carousel-item{
+           .carousel-caption{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            top: 15%;
+            gap: 30px;
+             .line-text{
+                display: flex;
+                justify-content:flex-start;
+                align-items: center;
+                gap: 20px;
+                text-align: left;
+                .line{
+                 height: 1px;
+                 width: 60px;
+                 background-color:#FF2147 ;
+                }
+                h5{
+                    color: #FF2147;
+                }
+             } 
+             h1{
+                font-weight: 900;
+                font-size: 70px;
+                color: black;
+                text-align: left;
+             }
+
+             p{
+                color: black;
+                text-align: left;
+             }
+             button{
+                border: none;
+                padding: 10px 30px;
+                background-color: #FF2147;
+                color: white;
+             }
+           }
+           @media screen and (max-width:991px) {
+             width: 100%;
+             top: 0%
+           }
+        }
+    
+}

@@ -1,0 +1,28 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "img": "pie-chart.png",
+      "name": "lorem ipsumm",
+      "text": " of passages of lorem Ipsum available but the new majority have suffered."
+    },
+    {
+      "id": 2,
+      "img": "deal.png",
+      "name": "lorem Planning",
+      "text": "There are many variations of passages of lorem Ipsum available but the new majority have suffered."
+    },
+    {
+      "id": 3,
+      "img": "deal.png",
+      "name": "ipsum Planning",
+      "text": "There are many variations of passages of lorem Ipsum available but the new majority have suffered."
+    },
+    {
+      "id": 4,
+      "img": "deal.png",
+      "name": "dolor Planning",
+      "text": "There are many variations of passages of lorem Ipsum available but the new majority have suffered."
+    }
+  ]
+}

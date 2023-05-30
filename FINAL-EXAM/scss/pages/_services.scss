@@ -1,0 +1,85 @@
+#services{
+    padding: 50px 0;
+    background-color: #F7F7F7;
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .service-heading{
+            .line-text{
+                display: flex;
+                justify-content:flex-start;
+                align-items: center;
+                gap: 20px;
+                text-align: left;
+                .line{
+                 height: 1px;
+                 width: 60px;
+                 background-color:#FF2147 ;
+                }
+                h5{
+                    color: #FF2147;
+                }
+             }
+             .sort-search{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 50px;
+                .sort{
+                    background-color: #FF2147;
+                    padding: 5px 10px;
+                }
+             }
+        }
+        .all-services{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 20px;
+            .single-service{
+                margin: 50px 0;
+                background-color: white;
+                padding:40px 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 50px;
+                img{
+                    width: 65px;
+                    height: 65px;
+                }
+                .service-text{
+                    text-align: center;
+                    button{
+                        margin: 5px;
+                        border: none;
+                        padding: 10px 30px;
+                        background-color: #FF2147;
+                        color: white;
+                    }
+                }
+                &:hover{
+                    transition: 1s;
+                    background-color: #FF2147;
+                    color: white;
+                    button{
+                        background-color: #F7F7F7;
+                        color: black;
+                    }
+                }
+            }
+            @media screen  and (max-width:991px){
+                grid-template-columns: auto auto;
+            }
+        }
+        button{
+            border: none;
+            padding: 10px 30px;
+            background-color: #FF2147;
+            color: white;
+        }
+
+    }
+}
